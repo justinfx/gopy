@@ -7,10 +7,9 @@ package bind
 import (
 	"fmt"
 	"go/token"
+	"go/types"
 	"path/filepath"
 	"strings"
-
-	"golang.org/x/tools/go/types"
 )
 
 const (

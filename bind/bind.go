@@ -9,10 +9,9 @@ import (
 	"fmt"
 	"go/doc"
 	"go/token"
+	"go/types"
 	"io"
 	"os"
-
-	"golang.org/x/tools/go/types"
 )
 
 // ErrorList is a list of errors
